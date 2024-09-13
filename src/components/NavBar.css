@@ -1,0 +1,41 @@
+/* Navbar.css */
+
+.navbar {
+    background-color: #333;
+    padding: 10px 20px; /* Adjust padding as needed */
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: adds a shadow under the navbar */
+    position: fixed; /* Keep the navbar fixed at the top */
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Ensure the navbar is above other content */
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between; /* Distribute space between brand and links */
+    align-items: center; /* Vertically center items */
+    max-width: 1200px; /* Set a maximum width for content */
+    margin: 0 auto; /* Center the content horizontally */
+}
+
+.navbar-brand {
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.navbar-links {
+    display: flex;
+    gap: 20px; /* Space between links */
+}
+
+.navbar-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.navbar-links a:hover {
+    text-decoration: underline; /* Optional: underline on hover */
+}

@@ -1,0 +1,25 @@
+.book-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.back-button {
+    align-self: flex-start;
+    margin-top: 20px;
+}
+.book-details h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+.book-details p {
+    font-size: 1rem;
+    color: #333;
+    margin: 10px 0;
+}
+.book-details p strong {
+    font-weight: bold;
+}
